@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Aliou Mangane</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- HEADER -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="index.html">
+      <img src="images/Ma_photo.jpg" alt="Logo" width="40" height="40" class="rounded-circle me-2">
+      <span>Aliou Mangane</span>
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">À propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="skills.html">Compétences</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="experience.html">Expérience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="formation.html">Formation</a>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero-small py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1 class="display-4 fw-bold text-white mb-3">Contactez-moi</h1>
+        <p class="lead text-white">N'hésitez pas à me faire part de vos projets ou questions</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold">
+            <span class="text-success">Merci de me contacter</span>
+          </h2>
+          <p class="lead">Je serais ravi d'échanger avec vous sur vos projets</p>
+        </div>
+        
+        <form id="contactForm" class="row g-3">
+          <div class="col-md-6">
+            <label for="prenom" class="form-label">Prénom</label>
+            <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Votre prénom" required>
+          </div>
+          <div class="col-md-6">
+            <label for="nom" class="form-label">Nom</label>
+            <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" required>
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="votre.email@exemple.com" required>
+          </div>
+          <div class="col-12">
+            <label for="sujet" class="form-label">Sujet</label>
+            <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Votre sujet" required>
+          </div>
+          <div class="col-12">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Écrivez votre message ici !" required></textarea>
+          </div>
+          <div class="col-12 text-center">
+            <button type="submit" class="btn btn-success btn-lg px-5">
+              <i class="bi bi-send me-2"></i>Envoyer
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INFORMATIONS DE CONTACT -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h2 class="display-5 fw-bold">Informations de Contact</h2>
+        <p class="lead">Retrouvez-moi sur les réseaux sociaux</p>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <i class="bi bi-envelope text-success fs-1 mb-3"></i>
+            <h5 class="card-title">Email</h5>
+            <p class="card-text">alinemangane8@email.com</p>
+            <a href="mailto:aliou.mangane@email.com" class="btn btn-outline-success">
+              <i class="bi bi-envelope me-1"></i>Envoyer un email
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <i class="bi bi-linkedin text-success fs-1 mb-3"></i>
+            <h5 class="card-title">LinkedIn</h5>
+            <p class="card-text">Connectez-vous avec moi</p>
+            <a href="www.linkedin.com/in/aliou-mangane-sa92" class="btn btn-outline-success">
+              <i class="bi bi-linkedin me-1"></i>Voir le profil
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100 border-0 shadow-sm text-center">
+          <div class="card-body">
+            <i class="bi bi-github text-success fs-1 mb-3"></i>
+            <h5 class="card-title">GitHub</h5>
+            <p class="card-text">Découvrez mes projets</p>
+            <a href="https://github.com/M-92-57" class="btn btn-outline-success">
+              <i class="bi bi-github me-1"></i>Voir les projets
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CV TÉLÉCHARGEABLE -->
+<section class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="display-5 fw-bold mb-4">Mon CV</h2>
+        <p class="lead mb-4">Téléchargez mon CV pour en savoir plus sur mon parcours</p>
+        <a href="doc_cv/CV_Aliou_Mangane.pdf" class="btn btn-success btn-lg" download>
+          <i class="bi bi-download me-2"></i>Télécharger mon CV
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="mb-0">Design : Mangane | avec Bootstrap, HTML, CSS, JS</p>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <p class="mb-0">Tous droits réservés - 2025</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="script.js"></script>
+</body>
+</html>

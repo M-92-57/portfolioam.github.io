@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil - Aliou Mangane</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css" /> 
+</head> 
+  <body> 
+
+<!-- HEADER --> <!-- Commentaire pour la section header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> <!-- Barre de navigation Bootstrap avec classes pour expansion, couleur sombre et position fixe en haut -->
+  <div class="container"> <!-- Conteneur Bootstrap pour centrer le contenu -->
+    <a class="navbar-brand d-flex align-items-center" href="index.html"> <!-- Lien de la marque avec flexbox pour aligner les éléments -->
+      <img src="images/Ma_photo.jpg" alt="Logo" width="40" height="40" class="rounded-circle me-2"> <!-- Image de profil avec dimensions et classe pour forme circulaire -->
+      <span>Aliou Mangane</span> <!-- Texte du nom -->
+    </a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <!-- Bouton pour le menu mobile avec attributs Bootstrap -->
+      <span class="navbar-toggler-icon"></span> <!-- Icône du bouton toggle -->
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNav"> <!-- Div pour le menu collapsible avec ID correspondant au bouton -->
+      <ul class="navbar-nav ms-auto"> <!-- Liste de navigation avec marge automatique à gauche pour aligner à droite -->
+        <li class="nav-item"> <!-- Élément de liste pour l'item de navigation -->
+          <a class="nav-link active" href="index.html">Accueil</a> <!-- Lien vers la page d'accueil avec classe active -->
+        </li> 
+        <li class="nav-item"> <!-- Élément de liste pour l'item de navigation -->
+          <a class="nav-link" href="about.html">À propos</a> <!-- Lien vers la page À propos -->
+        </li> 
+        <li class="nav-item"> <!-- Élément de liste pour l'item de navigation -->
+          <a class="nav-link" href="skills.html">Compétences</a> <!-- Lien vers la page Compétences -->
+        </li> 
+        <li class="nav-item"> <!-- Élément de liste pour l'item de navigation -->
+          <a class="nav-link" href="experience.html">Expérience</a> <!-- Lien vers la page Expérience -->
+         <li class="nav-item"> <!-- Élément de liste pour l'item de navigation -->
+          <a class="nav-link" href="formation.html">Formation</a> <!-- Lien vers la page Expérience --> 
+        </li> 
+        <li class="nav-item"> <!-- Élément de liste pour l'item de navigation -->
+          <a class="nav-link" href="projects.html">Projets</a> <!-- Lien vers la page Projets -->
+        </li> 
+        <li class="nav-item"> <!-- Élément de liste pour l'item de navigation -->
+          <a class="nav-link" href="contact.html">Contact</a> <!-- Lien vers la page Contact -->
+        </li> 
+      </ul> 
+    </div> 
+  </div> 
+</nav> 
+
+<!-- HERO (Accueil) --> <!-- Commentaire pour la section hero -->
+<section id="hero" class="hero"> <!-- Section hero avec ID et classe CSS -->
+  <div class="container-fluid h-100 d-flex align-items-center"> <!-- Conteneur fluide avec hauteur 100% et flexbox pour centrer verticalement -->
+    <div class="container"> <!-- Conteneur Bootstrap standard -->
+      <div class="row align-items-center"> <!-- Ligne Bootstrap avec alignement vertical centré -->
+        <div class="col-lg-6 text-center text-lg-start"> <!-- Colonne pour la photo, centrée sur mobile, alignée à gauche sur desktop -->
+          <div class="intro-photo mb-4 mb-lg-0"> <!-- Div pour la photo d'introduction avec marges -->
+            <img src="images/aline.jpg" alt="Profil de Aliou Mangane" class="img-fluid rounded-circle shadow-lg" style="max-width: 400px;"> <!-- Image de profil avec classes responsive et style inline -->
+          </div>
+        </div> 
+        <div class="col-lg-6"> <!-- Colonne pour le texte hero -->
+          <div class="hero-text text-center text-lg-start"> <!-- Div pour le texte avec alignement centré sur mobile, gauche sur desktop -->
+            <h1 class="display-4 fw-bold mb-3">Bonjour, je suis Aliou Mangane</span></h1>
+            <p class="lead fs-4">Développeur Web & IA | Design & Médias | Animateur, Communicant & Entrepreneur</p> <!-- Sous-titre avec classes lead et fs-4 -->
+            <div class="mt-4"> <!-- Div pour les boutons avec marge top -->
+              <a href="about.html" class="btn btn-success btn-lg me-3">Découvrir mon profil</a> <!-- Bouton vers la page À propos -->
+              <a href="contact.html" class="btn btn-outline-light btn-lg">Me contacter</a> <!-- Bouton vers la page Contact -->
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+  </div> 
+</section> 
+
+<!-- FOOTER --> <!-- Commentaire pour le pied de page -->
+<footer class="bg-dark text-light py-4"> <!-- Élément footer avec fond sombre, texte clair et padding vertical -->
+  <div class="container"> <!-- Conteneur Bootstrap -->
+    <div class="row align-items-center"> <!-- Ligne avec alignement vertical centré -->
+      <div class="col-md-6 text-center text-md-start"> <!-- Colonne pour le crédit design, centrée sur mobile, alignée à gauche sur desktop -->
+        <p class="mb-0">Design : Mangane | avec Bootstrap, HTML, CSS, JS</p> <!-- Paragraphe avec crédit design et technologies utilisées -->
+      </div> 
+      <div class="col-md-6 text-center text-md-end"> <!-- Colonne pour le copyright, centrée sur mobile, alignée à droite sur desktop -->
+        <p class="mb-0">Tous droits réservés - 2025</p> <!-- Paragraphe avec copyright -->
+      </div> 
+    </div>
+  </div>
+</footer> 
+
+<!-- Bootstrap JS --> <!-- Commentaire pour le JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> <!-- Script Bootstrap depuis CDN -->
+<!-- Custom JS --> <!-- Commentaire pour le JavaScript personnalisé -->
+<script src="script.js"></script> <!-- Script JavaScript personnalisé -->
+</body> 
+</html> 
